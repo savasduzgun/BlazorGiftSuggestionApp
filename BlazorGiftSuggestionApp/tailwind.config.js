@@ -26,9 +26,8 @@ module.exports = {
     },
     plugins: [
         require('daisyui'),
-        require('@tailwindcss/forms'),
     ],
     daisyui: {
-        themes: ["light", "dark", "synthwave", "aqua", "sunset"],
+        themes: ["light", "dark", "synthwave"],
     },
 }
